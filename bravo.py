@@ -2,7 +2,7 @@ import pyttsx3
 import os
 
 pyttsx3.speak(
-    "Hi, This is Bravo, your own application guide. Welcome to my tools")
+    "Hi, This is Bravo. Welcome to my tools")
 
 while(1):
 
@@ -12,7 +12,7 @@ while(1):
 
     if(("open" in p) or ("start" in p)) and (("editor" in p) or ("notepad" in p)):
 
-        pyttsx3.speak("Opening notepad")
+        pyttsx3.speak("Opening notepad for you")
 
         os.system("notepad")
 
