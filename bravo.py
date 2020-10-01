@@ -2,7 +2,7 @@ import pyttsx3
 import os
 
 pyttsx3.speak(
-    "Hi, This is Bravo. Welcome to my tools")
+    "Hi, This is Bravo YOUR PERSONAL ASSISTANT. Welcome to my tools")
 
 while(1):
 
