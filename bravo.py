@@ -2,7 +2,7 @@ import pyttsx3
 import os
 
 pyttsx3.speak(
-    "Hi, This is Bravo, your own application guide. Welcome to my tools")
+    "Hi, This is Bravo, Welcome to my tools")
 
 while(1):
 
@@ -33,7 +33,7 @@ while(1):
 
                 os.system("start chrome google.com")
 
-    elif(("open" in p) or ("start" in p)) and (("music player" in p) or ("media player" in p)):
+    elif(("open" in p) or ("start" in p)) and (("song player" in p) or ("media player" in p)):
 
         pyttsx3.speak("Opening Windows Media Player")
 
