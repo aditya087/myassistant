@@ -2,7 +2,10 @@ import pyttsx3
 import os
 
 pyttsx3.speak(
-    "Hi, This is Bravo, Welcome to my tools")
+
+
+    "Hi, This is Bravo, Your personal assistant, Welcome to my tools")
+
 
 while(1):
 
@@ -12,7 +15,7 @@ while(1):
 
     if(("open" in p) or ("start" in p)) and (("editor" in p) or ("notepad" in p)):
 
-        pyttsx3.speak("Opening notepad")
+        pyttsx3.speak("Opening notepad for you")
 
         os.system("notepad")
 
@@ -24,7 +27,7 @@ while(1):
 
             if ('incognito chrome' in p or 'private browser' in p or 'yes' in p):
 
-                pyttsx3.speak("Opening Incognito chrome")
+                pyttsx3.speak("Opening Incognito chrome for you")
 
                 os.system("start chrome -incognito")
 
@@ -41,13 +44,13 @@ while(1):
 
     elif(("open" in p) or ("start" in p)) and (("explorer" in p) or ("file explorer" in p)):
 
-        pyttsx3.speak("Opening file explorer")
+        pyttsx3.speak("Opening file explorer for you")
 
         os.system("start explorer")
 
     elif(("open" in p) or ("start" in p)) and (("Task Manager" in p) or ("task manager" in p)):
 
-        pyttsx3.speak("Opening Task Manager")
+        pyttsx3.speak("Opening Task Manager for you")
 
         os.system("taskmgr")
 
